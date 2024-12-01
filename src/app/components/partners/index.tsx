@@ -30,8 +30,8 @@ export default function Partners() {
           className="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]"
         >
           <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
-            {images.map((i) => (
-              <li>
+            {images.map((i, index) => (
+              <li key={index}>
                 <div className="max-w-sm rounded-md overflow-hidden shadow-lg">
                   <Image src={i.src} alt={i.name} width={100} height={100} />
                 </div>
@@ -42,8 +42,8 @@ export default function Partners() {
             className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
             aria-hidden="true"
           >
-            {images.map((i) => (
-              <li>
+            {images.map((i, index) => (
+              <li key={index}>
                 <div className="max-w-sm rounded-md overflow-hidden shadow-lg">
                   <Image src={i.src} alt={i.name} width={100} height={100} />
                 </div>

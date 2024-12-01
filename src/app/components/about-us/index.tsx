@@ -15,9 +15,6 @@ export default function AboutUs() {
               water treatment company Established in the year 1998. SHS is a
               water treatment company Established in the year 1998. SHS is a
               water treatment company Established in the year 1998. SHS is a
-              water treatment company Established in the year 1998. SHS is a
-              water treatment company Established in the year 1998. SHS is a
-              water treatment company Established in the year 1998. SHS is a
               water treatment company Established in the year 1998.
             </p>
           </div>

@@ -106,13 +106,13 @@ export default function Header() {
                   About Us
                 </a>
                 <a
-                  href="#"
+                  href="#what-we-do"
                   className="rounded-md px-3 py-2 text-sm font-medium text-blue-950 hover:bg-gray-700 hover:text-white"
                 >
                   Products
                 </a>
                 <a
-                  href="#"
+                  href="#get-in-touch"
                   className="rounded-md px-3 py-2 text-sm font-medium text-blue-950 hover:bg-gray-700 hover:text-white"
                 >
                   Contact Us
