@@ -1,11 +1,10 @@
 import Image from "next/image";
-
-export default function AboutUs() {
+export default function WhatTheyDo() {
   return (
-    <div id="about-us" className="bg-blue-950">
+    <div id="about-us-2" className="bg-yellow">
       <div className="mx-auto max-w-screen-2xl">
-        <div className="relative grid grid-cols-5 h-svh p-36 gap-36">
-          <div className="flex flex-col col-span-3 items-start justify-content-center pt-12">
+        <div className="relative grid grid-cols-2 h-svh p-36 gap-36">
+          <div className="flex flex-col items-start justify-content-center pt-12">
             <p className="text-md font-black mb-3">
               Transforming industrial water treatment
             </p>
@@ -27,10 +26,28 @@ export default function AboutUs() {
             </p>
           </div>
           <div
-            className="flex flex-col col-span-2 items-center justify-content-center"
+            className="flex flex-col grid-rows-2 gap-8 pt-16"
             style={{ position: "relative" }}
           >
-            <Image src="/aboutUs.jpeg" alt="" fill />
+            <div>
+              <div>
+                <p className="text-3xl font-extralight mb-5">INNOVATIVE</p>
+                <p className="text-md text-slate-500 tracking-wide w-9/12">
+                  At SHS, we specialize in advanced industrial water treatment
+                  solutions designed to empower businesses and optimize their
+                  operations.
+                </p>
+              </div>
+            </div>
+            <div className="grid justify-items-end">
+              <div className="w-8/12">
+                <p className="text-3xl font-extralight mt-12">INNOVATIVE</p>
+                <p className="text-md text-slate-500 tracking-wide mt-4">
+                  At SHS, we specialize in advanced industrial water treatment
+                  solutions designed to empower businesses and optimize.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

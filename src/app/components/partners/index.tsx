@@ -19,7 +19,10 @@ export default function Partners() {
   ];
   return (
     <div className="bg-white">
-      <div className="mx-auto max-w-screen-2xl px-2 sm:px-6 lg:px-8 py-8">
+      <div className="mx-auto max-w-screen-2xl px-2 sm:px-6 lg:px-8 py-12">
+        <p className="text-4xl text-zinc-900 font-bold text-center mb-16">
+          Reputed Clients
+        </p>
         <div
           x-data="{}"
           x-init="$nextTick(() => {
@@ -33,7 +36,7 @@ export default function Partners() {
             {images.map((i, index) => (
               <li key={index}>
                 <div className="max-w-sm rounded-md overflow-hidden shadow-lg">
-                  <Image src={i.src} alt={i.name} width={100} height={100} />
+                  <Image src={i.src} alt={i.name} width={150} height={150} />
                 </div>
               </li>
             ))}
@@ -45,7 +48,7 @@ export default function Partners() {
             {images.map((i, index) => (
               <li key={index}>
                 <div className="max-w-sm rounded-md overflow-hidden shadow-lg">
-                  <Image src={i.src} alt={i.name} width={100} height={100} />
+                  <Image src={i.src} alt={i.name} width={150} height={150} />
                 </div>
               </li>
             ))}
