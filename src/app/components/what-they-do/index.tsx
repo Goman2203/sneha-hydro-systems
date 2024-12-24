@@ -1,4 +1,3 @@
-import Image from "next/image";
 export default function WhatTheyDo() {
   return (
     <div id="about-us-2" className="bg-yellow">
