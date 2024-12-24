@@ -18,13 +18,17 @@ export default function WhatWeDo() {
             <div className="w-full h-full px-14">
               <div className="bg-white shadow-lg w-full h-full grid grid-cols-2 p-4">
                 <div className="flex flex-col grid-rows-5 gap-5">
-                  {itemsRow1.map((i) => (
-                    <div className="text-black">{i}</div>
+                  {itemsRow1.map((i, index) => (
+                    <div key={index} className="text-black">
+                      {i}
+                    </div>
                   ))}
                 </div>
                 <div className="flex flex-col grid-rows-5 gap-4 mt-5">
-                  {itemsRow2.map((i) => (
-                    <div className="text-black">{i}</div>
+                  {itemsRow2.map((i, index) => (
+                    <div key={index + 5} className="text-black">
+                      {i}
+                    </div>
                   ))}
                 </div>
               </div>
