@@ -1,8 +1,7 @@
 const itemsRow1 = ["RO", "UV", "STP", "MB", "PDS"];
 const itemsRow2 = ["UF", "Pre-Fil", "DM/DI", "EDI", "Softener"];
 
-export default function WhatTheyDo() {
-  console.log("hello");
+export default function WhatWeDo() {
   return (
     <div id="what-we-do" className="bg-yellow-400">
       <div className="mx-auto max-w-screen-2xl p-36 h-svh">
