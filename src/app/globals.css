@@ -25,3 +25,25 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+/* Global Styles for Scrollbars */
+html,
+body {
+  overflow: auto; /* Ensures scrolling works normally */
+  scrollbar-width: thin; /* Makes the scrollbar thinner in Firefox */
+  scrollbar-color: rgba(0, 0, 0, 0.5) transparent; /* Dark scrollbar */
+}
+
+/* For Webkit browsers (Chrome, Safari, Edge) */
+body::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5); /* Dark scrollbar */
+  border-radius: 10px; /* Rounded edges */
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent; /* Invisible track */
+}

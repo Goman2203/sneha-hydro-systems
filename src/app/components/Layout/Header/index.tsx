@@ -93,7 +93,7 @@ export default function Header() {
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
                 <a
-                  href="#home"
+                  href="/"
                   className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white"
                   aria-current="page"
                 >
@@ -112,7 +112,7 @@ export default function Header() {
                   Products
                 </a>
                 <a
-                  href="#get-in-touch"
+                  href="/contact-us"
                   className="rounded-md px-3 py-2 text-sm font-medium text-blue-950 hover:bg-gray-700 hover:text-white"
                 >
                   Contact Us
