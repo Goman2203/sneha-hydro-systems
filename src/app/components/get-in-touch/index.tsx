@@ -8,7 +8,7 @@ export default function GetInTouch() {
         <div className="grid grid-cols-4 gap-4">
           <div className="py-12 px-14 col-span-2">
             <div className="header text-3xl font-bold text-zinc-900 mb-6">
-              We're here to help you with water solutions
+              We&apos;re here to help you with water solutions
             </div>
             <form className="">
               <div className="w-full mb-6">
